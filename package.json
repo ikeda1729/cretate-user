@@ -1,0 +1,16 @@
+{
+  "name": "myservice",
+  "version": "1.0.0",
+  "description": "Sample OpenWhisk NodeJS serverless framework service.",
+  "main": "handler.js",
+  "keywords": [
+    "serverless",
+    "openwhisk"
+  ],
+  "devDependencies": {
+    "serverless-openwhisk": ">=0.13.0"
+  },
+  "dependencies": {
+    "mysql2": "^3.4.2"
+  }
+}
